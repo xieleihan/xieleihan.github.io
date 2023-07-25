@@ -74,7 +74,7 @@
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="1-线路信息"><a href="#1-线路信息" class="headerlink" title="1 线路信息"></a>1 线路信息</h2><p>本网站采用多线路部署方式，一份源码同时分发给多个托管<br>主域名：SouthAki.cn<br>解析到vercel，具有全球泛播节点，国内访问速度较快<br>备用域名：SouthAki.top<br>解析到cloudflare，安全性较好<br>以上所有线路均支持HTTPS协议</p><h2 id="2-技术栈-amp-框架"><a href="#2-技术栈-amp-框架" class="headerlink" title="2 技术栈&amp;框架"></a>2 技术栈&amp;框架</h2><p>博客框架： HEXO<br>主题：Butterfly<br>源码仓库：GitHub<br>托管：vercel+cloudflare<br>评论系统：teikoo+vercel+mongoDB</p><h2 id="3-关于本人"><a href="#3-关于本人" class="headerlink" title="3 关于本人"></a>3 关于本人</h2><p>个人名：SouthAki🍉<br>性别：♂<br>生日：2002.12.31<br>身份：大学本科牲<br>地点：夜之城<br>邮箱：admin@southaki.top<br>擅长：HTML5、C、Java、Internet、Python（所有语言都正在点亮中），撰写文章<br>名字由来：盛夏遇不到我一生的你，于是我独自在南方的秋天里等你。<br>其他：Furry/摄影/旅行/迷路的牙刷（单推）/电子数码/科技/二次元/男通讯录</p><!--·GitHub容器·--><div id="gitZone></div>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-线路信息"><a href="#1-线路信息" class="headerlink" title="1 线路信息"></a>1 线路信息</h2><p>本网站采用多线路部署方式，一份源码同时分发给多个托管<br>主域名：SouthAki.cn<br>解析到vercel，具有全球泛播节点，国内访问速度较快<br>备用域名：SouthAki.top<br>解析到cloudflare，安全性较好<br>以上所有线路均支持HTTPS协议</p><h2 id="2-技术栈-amp-框架"><a href="#2-技术栈-amp-框架" class="headerlink" title="2 技术栈&amp;框架"></a>2 技术栈&amp;框架</h2><p>博客框架： HEXO<br>主题：Butterfly<br>源码仓库：GitHub<br>托管：vercel+cloudflare<br>评论系统：teikoo+vercel+mongoDB</p><h2 id="3-关于本人"><a href="#3-关于本人" class="headerlink" title="3 关于本人"></a>3 关于本人</h2><p>个人名：SouthAki🍉<br>性别：♂<br>生日：2002.12.31<br>身份：大学本科牲<br>地点：夜之城<br>邮箱：admin@southaki.top<br>擅长：HTML5、C、Java、Internet、Python（所有语言都正在点亮中），撰写文章<br>名字由来：盛夏遇不到我一生的你，于是我独自在南方的秋天里等你。<br>其他：Furry/摄影/旅行/迷路的牙刷（单推）/电子数码/科技/二次元/🌈</p><!--·GitHub容器·--><div id="gitZone></div>]]></content>
       
     </entry>
     
@@ -225,6 +225,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/timedou.js"/>
+      <url>/js/timedou.js</url>
+      
+        <content type="html"><![CDATA[// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "哎嘿！复制成功🍬",                    message: "若要转载最好保留原文链接哦，给你一个大大的赞！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/rightmenu.js"/>
       <url>/js/rightmenu.js</url>
       
@@ -240,17 +251,6 @@
       <url>/js/runtime.js</url>
       
         <content type="html"><![CDATA[var now = new Date; function createtime(){ now.setTime(now.getTime() + 1e3); var e =new Date("07/22/2023 00:00:00"), t =Math.trunc(234e8+(now-e)/1e3*17), a=(t/ 1496e5).toFixed(6), n=new Date("07/22/2023 00:00:00"),s=(now-n)/1e3/60/60/24, o=Math.floor(s),r=(now-n)/1e3/60/60-24*o,i=Math.floor(r);1==String(i).length&&(i="0"+i); var l=(now-n)/1e3/60-1440*o-60*i,b=Math.floor(l);l==String(b).length&&(b="0"+b);var d=(now-n)/1e3-86400*o-3600*i-60*b,c=Math.round(d);l==String(c).length&&(c="0"+c);let g="";g=i<18&&i>=9?`<img class='boardsign' src='https://img.shields.io/badge/F小屋-上班摸鱼中-6adea8?style=social&logo=cakephp' title='距离月入25k也就差一个大佬带我~'><span class='textTip'><br><b>本站竟然运行了${o}天</span><span id='runtime'>${i}小时${b}分钟${c}秒</b></span><i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i><br><b>旅行者一号当前距离地球${t}千米，约为${a}个天文单位🚀</b><br><b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在上面度过他们的一生🌟</font></b>`:`<img class='boardsign' src='https://img.shields.io/badge/F小屋-打烊休息啦-6adea8?style=social&logo=coffeescript' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'><br><b>本站竟然运行了${o}天</span><span id='runtime'>${i}小时${b}分钟${c}秒</b></span><i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i><br><b>旅行者一号当前距离地球${t}千米，约为${a}个天文单位🚀</b><br><b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在上面度过他们的一生🌟</font></b>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)} setInterval((()=>{createtime()}),1e3);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/timedou.js"/>
-      <url>/js/timedou.js</url>
-      
-        <content type="html"><![CDATA[// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "哎嘿！复制成功🍬",                    message: "若要转载最好保留原文链接哦，给你一个大大的赞！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})]]></content>
       
     </entry>
     
@@ -338,7 +338,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-nwfNHRhL" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</p>    <div id="aplayer-ayOgmjQo" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</p>    <div id="aplayer-yFgcJoMI" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</p><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-XRlYwBVp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</p>    <div id="aplayer-LtcvlEbX" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</p>    <div id="aplayer-wTJSiGxC" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</p><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
       
     </entry>
     
