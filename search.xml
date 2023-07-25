@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>日常记录</title>
+      <link href="/2023/07/25/%E6%91%86%E7%83%82%E7%9A%84%E4%B8%80%E5%A4%A9/"/>
+      <url>/2023/07/25/%E6%91%86%E7%83%82%E7%9A%84%E4%B8%80%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<p>今天算是没有怎么去迭代这个网站，因为台风的靠近，更多的时间去研究这个台风的具体路径。<br>网站基本上已经建得差不多，基本上要修改的动工成本已经达到极致。<br>域名上依旧解析两个。</p><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常小记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 摆烂 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这是我的第三篇文章</title>
       <link href="/2023/07/24/7%E6%9C%8824%E5%8F%B7%E7%9A%84%E6%88%90%E5%B0%B1/"/>
       <url>/2023/07/24/7%E6%9C%8824%E5%8F%B7%E7%9A%84%E6%88%90%E5%B0%B1/</url>
@@ -70,17 +95,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="1-线路信息"><a href="#1-线路信息" class="headerlink" title="1 线路信息"></a>1 线路信息</h2><p>本网站采用多线路部署方式，一份源码同时分发给多个托管<br>主域名：SouthAki.cn<br>解析到vercel，具有全球泛播节点，国内访问速度较快<br>备用域名：SouthAki.top<br>解析到cloudflare，安全性较好<br>以上所有线路均支持HTTPS协议</p><h2 id="2-技术栈-amp-框架"><a href="#2-技术栈-amp-框架" class="headerlink" title="2 技术栈&amp;框架"></a>2 技术栈&amp;框架</h2><p>博客框架： HEXO<br>主题：Butterfly<br>源码仓库：GitHub<br>托管：vercel+cloudflare<br>评论系统：teikoo+vercel+mongoDB</p><h2 id="3-关于本人"><a href="#3-关于本人" class="headerlink" title="3 关于本人"></a>3 关于本人</h2><p>个人名：SouthAki🍉<br>性别：♂<br>生日：2002.12.31<br>身份：大学本科牲<br>地点：夜之城<br>邮箱：admin@southaki.top<br>擅长：HTML5、C、Java、Internet、Python（所有语言都正在点亮中），撰写文章<br>名字由来：盛夏遇不到我一生的你，于是我独自在南方的秋天里等你。<br>其他：Furry/摄影/旅行/迷路的牙刷（单推）/电子数码/科技/二次元/🌈</p><!-- ·GitHub容器·<div id="gitZone></div> -->]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -97,6 +111,17 @@
       <url>/css/cat.css</url>
       
         <content type="html"><![CDATA[body::-webkit-scrollbar {    width: 0;}.neko {    width: 64px;    height: 64px;    background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");    position: absolute;    right: 32px;    background-repeat: no-repeat;    background-size: contain;    transform: translateX(50%);    cursor: pointer;    font-family: tzy;    font-weight: 600;    font-size: 16px;    color: #6f42c1;    display: none;}.neko::after {    display: none;    width: 100px;    height: 100px;    background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");    background-size: contain;    z-index: 9999;    position: absolute;    right: 50%;    text-align: center;    line-height: 100px;    top: -115%;}.neko.showMsg::after {    content: attr(data-msg);    display: block;    overflow: hidden;    text-overflow: ellipsis;}.neko:hover::after {    content: attr(data-msg);    display: block;    overflow: hidden;    text-overflow: ellipsis;}.neko.fontColor::after {    color: #333;}/** * @description: 滚动条样式  跟猫二选一 */@media screen and (max-width:992px) {    ::-webkit-scrollbar {        width: 8px !important;        height: 8px !important    }    ::-webkit-scrollbar-track {        border-radius: 2em;    }    ::-webkit-scrollbar-thumb {        background-color: rgb(255 255 255 / .3);        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);        border-radius: 2em    }    ::-webkit-scrollbar-corner {        background-color: transparent    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-线路信息"><a href="#1-线路信息" class="headerlink" title="1 线路信息"></a>1 线路信息</h2><p>本网站采用多线路部署方式，一份源码同时分发给多个托管<br>主域名：SouthAki.cn<br>解析到vercel，具有全球泛播节点，国内访问速度较快<br>备用域名：SouthAki.top<br>解析到cloudflare，安全性较好<br>以上所有线路均支持HTTPS协议</p><h2 id="2-技术栈-amp-框架"><a href="#2-技术栈-amp-框架" class="headerlink" title="2 技术栈&amp;框架"></a>2 技术栈&amp;框架</h2><p>博客框架： HEXO<br>主题：Butterfly<br>源码仓库：GitHub<br>托管：vercel+cloudflare<br>评论系统：teikoo+vercel+mongoDB</p><h2 id="3-关于本人"><a href="#3-关于本人" class="headerlink" title="3 关于本人"></a>3 关于本人</h2><p>个人名：SouthAki🍉<br>性别：♂<br>生日：2002.12.31<br>身份：大学本科牲<br>地点：夜之城<br>邮箱：admin@southaki.top<br>擅长：HTML5、C、Java、Internet、Python（所有语言都正在点亮中），撰写文章<br>名字由来：盛夏遇不到我一生的你，于是我独自在南方的秋天里等你。<br>其他：Furry/摄影/旅行/迷路的牙刷（单推）/电子数码/科技/二次元/🌈</p><!-- ·GitHub容器·<div id="gitZone></div> -->]]></content>
       
     </entry>
     
@@ -126,10 +151,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/readPercent.css"/>
-      <url>/css/readPercent.css</url>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
       
-        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -137,10 +162,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
       
     </entry>
     
@@ -203,17 +228,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/readPercent.js"/>
-      <url>/js/readPercent.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/newYear.js"/>
       <url>/js/newYear.js</url>
       
@@ -236,21 +250,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
       
-        <content type="html"><![CDATA[var now = new Date; function createtime(){ now.setTime(now.getTime() + 1e3); var e =new Date("07/22/2023 00:00:00"), t =Math.trunc(234e8+(now-e)/1e3*17), a=(t/ 1496e5).toFixed(6), n=new Date("07/22/2023 00:00:00"),s=(now-n)/1e3/60/60/24, o=Math.floor(s),r=(now-n)/1e3/60/60-24*o,i=Math.floor(r);1==String(i).length&&(i="0"+i); var l=(now-n)/1e3/60-1440*o-60*i,b=Math.floor(l);l==String(b).length&&(b="0"+b);var d=(now-n)/1e3-86400*o-3600*i-60*b,c=Math.round(d);l==String(c).length&&(c="0"+c);let g="";g=i<18&&i>=9?`<img class='boardsign' src='https://img.shields.io/badge/F小屋-上班摸鱼中-6adea8?style=social&logo=cakephp' title='距离月入25k也就差一个大佬带我~'><span class='textTip'><br><b>本站竟然运行了${o}天</span><span id='runtime'>${i}小时${b}分钟${c}秒</b></span><i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i><br><b>旅行者一号当前距离地球${t}千米，约为${a}个天文单位🚀</b><br><b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在上面度过他们的一生🌟</font></b>`:`<img class='boardsign' src='https://img.shields.io/badge/F小屋-打烊休息啦-6adea8?style=social&logo=coffeescript' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'><br><b>本站竟然运行了${o}天</span><span id='runtime'>${i}小时${b}分钟${c}秒</b></span><i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i><br><b>旅行者一号当前距离地球${t}千米，约为${a}个天文单位🚀</b><br><b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在上面度过他们的一生🌟</font></b>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)} setInterval((()=>{createtime()}),1e3);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/timedou.js"/>
-      <url>/js/timedou.js</url>
-      
-        <content type="html"><![CDATA[// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "哎嘿！复制成功🍬",                    message: "若要转载最好保留原文链接哦，给你一个大大的赞！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})]]></content>
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
       
     </entry>
     
@@ -262,6 +265,17 @@
       <url>/js/title.js</url>
       
         <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👀跑哪里去了~';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐖抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[var now = new Date; function createtime(){ now.setTime(now.getTime() + 1e3); var e =new Date("07/22/2023 00:00:00"), t =Math.trunc(234e8+(now-e)/1e3*17), a=(t/ 1496e5).toFixed(6), n=new Date("07/22/2023 00:00:00"),s=(now-n)/1e3/60/60/24, o=Math.floor(s),r=(now-n)/1e3/60/60-24*o,i=Math.floor(r);1==String(i).length&&(i="0"+i); var l=(now-n)/1e3/60-1440*o-60*i,b=Math.floor(l);l==String(b).length&&(b="0"+b);var d=(now-n)/1e3-86400*o-3600*i-60*b,c=Math.round(d);l==String(c).length&&(c="0"+c);let g="";g=i<18&&i>=9?`<img class='boardsign' src='https://img.shields.io/badge/F小屋-上班摸鱼中-6adea8?style=social&logo=cakephp' title='距离月入25k也就差一个大佬带我~'><span class='textTip'><br><b>本站竟然运行了${o}天</span><span id='runtime'>${i}小时${b}分钟${c}秒</b></span><i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i><br><b>旅行者一号当前距离地球${t}千米，约为${a}个天文单位🚀</b><br><b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在上面度过他们的一生🌟</font></b>`:`<img class='boardsign' src='https://img.shields.io/badge/F小屋-打烊休息啦-6adea8?style=social&logo=coffeescript' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'><br><b>本站竟然运行了${o}天</span><span id='runtime'>${i}小时${b}分钟${c}秒</b></span><i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i><br><b>旅行者一号当前距离地球${t}千米，约为${a}个天文单位🚀</b><br><b><font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的每一个人，你听说过的每一个人，曾经有过的每一个人，都在上面度过他们的一生🌟</font></b>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)} setInterval((()=>{createtime()}),1e3);]]></content>
       
     </entry>
     
@@ -284,6 +298,17 @@
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/timedou.js"/>
+      <url>/js/timedou.js</url>
+      
+        <content type="html"><![CDATA[// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "哎嘿！复制成功🍬",                    message: "若要转载最好保留原文链接哦，给你一个大大的赞！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})]]></content>
       
     </entry>
     
@@ -338,7 +363,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-giPLZAQS" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</p>    <div id="aplayer-YffwPYYo" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</p>    <div id="aplayer-xGialWzm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</p><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-CRJFSTeC" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</p>    <div id="aplayer-ZcsyOGys" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</p>    <div id="aplayer-KzHZvHnP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</p><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
       
     </entry>
     
