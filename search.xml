@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>HEXO注释</title>
+      <link href="/2023/08/10/HEXO%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E6%B3%A8%E9%87%8A/"/>
+      <url>/2023/08/10/HEXO%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E6%B3%A8%E9%87%8A/</url>
+      
+        <content type="html"><![CDATA[<h2 id="HEXO的开发文档"><a href="#HEXO的开发文档" class="headerlink" title="HEXO的开发文档"></a>HEXO的开发文档</h2><blockquote><p>HEXO的官网是：<a href="https://hexo.io">Hexo.io</a><br>可以在网站调出开发文档，知道某些参数的具体作用<br>本页仅提供参考以及备忘，实际需要自己添加参数</p></blockquote><h2 id="1、最主要的文章撰写"><a href="#1、最主要的文章撰写" class="headerlink" title="1、最主要的文章撰写"></a>1、最主要的文章撰写</h2><blockquote><p>目前我常用文章头目录的如下所示，以后如果加入什么新功能会同步上</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: //这里写的是标题</span><br><span class="line">date: 2023-08-10 23:00:00 //这里写的是第一次编辑该文章的时间</span><br><span class="line">updated: 2023-08-10 23:00:00 //这里写的是更新时间</span><br><span class="line">swiper_index: //这里填写自然数，这个的实现的功能是我博客首页那个轮回播放，会按顺序播放文章</span><br><span class="line">highlight_shrink: //代码高亮收缩</span><br><span class="line">tags:</span><br><span class="line">- xxxx //标签</span><br><span class="line">categories: //类型</span><br><span class="line">---</span><br></pre></td></tr></table></figure><blockquote><p>下面的是有关文章内，段落与代码部分框架的展示</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- &lt;blockquote&gt;&lt;/blockquote&gt;  这是文本框的调用，往这两个尖括号里面加东西就行了</span><br><span class="line">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;    这是调用代码展示框的调用，往这两个尖括号加代码就行 --&gt;</span><br></pre></td></tr></table></figure><h2 id="2、常用功能解释"><a href="#2、常用功能解释" class="headerlink" title="2、常用功能解释"></a>2、常用功能解释</h2><blockquote><p>这个是网易云音乐插件aplayer的调用</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- </span><br><span class="line">   &lt;div id=&quot;aplayer-sEbqgmGN&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;</span><br><span class="line">        data-id=&quot;这里填入网易云音乐的id就行&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#ad7a86&quot;</span><br><span class="line">   &gt;&lt;/div&gt;</span><br><span class="line">上面是调用aplayer，播放音乐 --&gt;</span><br></pre></td></tr></table></figure><blockquote><p>这个是调用外部源的bilibili，实现视频播放</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;div align=center class=&quot;aspect-ratio&quot;&gt;</span><br><span class="line">   &lt;iframe src=&quot;这里填哔哩哔哩提供的外嵌地址&quot; </span><br><span class="line">   scrolling=&quot;no&quot; </span><br><span class="line">   border=&quot;0&quot; </span><br><span class="line">   frameborder=&quot;no&quot; </span><br><span class="line">   framespacing=&quot;0&quot; </span><br><span class="line">   high_quality=1</span><br><span class="line">   danmaku=1 </span><br><span class="line">   allowfullscreen=&quot;true&quot;&gt; </span><br><span class="line">   &lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><blockquote><p>待补充</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>利用CloudFlare搭建镜像网站</title>
       <link href="/2023/08/10/%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/"/>
       <url>/2023/08/10/%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/</url>
@@ -144,6 +157,17 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/cat.css"/>
       <url>/css/cat.css</url>
@@ -193,17 +217,6 @@
       <url>/css/universe.css</url>
       
         <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -401,7 +414,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-ZUSiOdUs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="1、我们一定会相爱，像涟漪终会到达它的彼岸。-—知许解夏"><a href="#1、我们一定会相爱，像涟漪终会到达它的彼岸。-—知许解夏" class="headerlink" title="1、我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏"></a>1、我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</h2>    <div id="aplayer-GXJoJQUa" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。-这题超纲了"><a href="#2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。-这题超纲了" class="headerlink" title="2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了"></a>2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</h2>    <div id="aplayer-bivJZBTP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。-—《某某》by木苏里-我永远的白月光"><a href="#3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。-—《某某》by木苏里-我永远的白月光" class="headerlink" title="3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光"></a>3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</h2><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-BhzezuFb" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="1、我们一定会相爱，像涟漪终会到达它的彼岸。-—知许解夏"><a href="#1、我们一定会相爱，像涟漪终会到达它的彼岸。-—知许解夏" class="headerlink" title="1、我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏"></a>1、我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</h2>    <div id="aplayer-VpANYigd" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。-这题超纲了"><a href="#2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。-这题超纲了" class="headerlink" title="2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了"></a>2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</h2>    <div id="aplayer-GYQNdGDR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。-—《某某》by木苏里-我永远的白月光"><a href="#3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。-—《某某》by木苏里-我永远的白月光" class="headerlink" title="3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光"></a>3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</h2><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
       
     </entry>
     
