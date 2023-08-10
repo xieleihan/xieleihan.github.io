@@ -137,18 +137,7 @@
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="1-线路信息"><a href="#1-线路信息" class="headerlink" title="1 线路信息"></a>1 线路信息</h2><p>本网站采用多线路部署方式，一份源码同时分发给多个托管<br>主域名：SouthAki.cn<br>解析到vercel，具有全球泛播节点，国内访问速度较快<br>备用域名：SouthAki.top<br>解析到cloudflare，安全性较好<br>以上所有线路均支持HTTPS协议</p><h2 id="2-技术栈-amp-框架"><a href="#2-技术栈-amp-框架" class="headerlink" title="2 技术栈&amp;框架"></a>2 技术栈&amp;框架</h2><p>博客框架： HEXO<br>主题：Butterfly<br>源码仓库：GitHub<br>托管：vercel+cloudflare<br>评论系统：teikoo+vercel+mongoDB</p><h2 id="3-关于本人"><a href="#3-关于本人" class="headerlink" title="3 关于本人"></a>3 关于本人</h2><p>个人名：SouthAki🍉<br>性别：♂<br>生日：2002.12.31<br>身份：大学本科牲<br>地点：夜之城<br>邮箱：admin@southaki.top<br>擅长：HTML5、C、Java、Internet、Python（所有语言都正在点亮中），撰写文章<br>名字由来：盛夏遇不到我一生的你，于是我独自在南方的秋天里等你。<br>其他：Furry/摄影/旅行/迷路的牙刷（单推）/电子数码/科技/二次元/🌈</p><!-- ·GitHub容器·<div id="gitZone></div> -->]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="1-、线路信息"><a href="#1-、线路信息" class="headerlink" title="1 、线路信息"></a>1 、线路信息</h2><blockquote><p>本网站采用多线路部署方式，一份源码同时分发给多个托管<br>主域名：<a href="https://southaki.cn">SouthAki.cn</a><br>解析到Vercel，具有全球泛播节点，国内访问速度较快<br>备用域名：<a href="https://southaki.top">SouthAki.top</a><br>解析到CloudFlare，安全性较好<br>以上所有线路均支持HTTPS协议</p></blockquote><h2 id="2、技术栈-amp-框架"><a href="#2、技术栈-amp-框架" class="headerlink" title="2、技术栈&amp;框架"></a>2、技术栈&amp;框架</h2><blockquote><p>博客框架： HEXO<br>主题：Butterfly<br>源码仓库：GitHub<br>托管：Vercel+CloudFlare<br>评论系统：teikoo+vercel+mongoDB</p></blockquote><h2 id="3、关于本人"><a href="#3、关于本人" class="headerlink" title="3、关于本人"></a>3、关于本人</h2><blockquote><p>个人名：SouthAki🍉<br>性别：♂<br>生日：2002.12.31<br>身份：大学本科牲<br>地点：夜之城<br>邮箱：admin@southaki.top<br>擅长：HTML5、C、Java、Internet、Python（所有语言都正在点亮中），写写东西，唱唱歌之类的<br>名字由来：一个句子：“盛夏遇不到我一生的你，于是我独自在南方的秋天里等你。”，所以取了其中的SouthAutumn，但是后面的英文太长，所以用成日语罗马音来代替。同时这个句子也是我目前的现状，同时也让我对下一年的夏天有所期待。<br>其他：🌈/Furry/摄影/旅行/迷路的牙刷（单推）/电子数码/科技/二次元/</p></blockquote><!-- ·GitHub容器·<div id="gitZone></div> -->]]></content>
       
     </entry>
     
@@ -204,6 +193,17 @@
       <url>/css/universe.css</url>
       
         <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -401,7 +401,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-YzhHGrKv" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</p>    <div id="aplayer-vpZFDbbh" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</p>    <div id="aplayer-kGkmrcjc" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p>那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</p><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-ZUSiOdUs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994547663" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="1、我们一定会相爱，像涟漪终会到达它的彼岸。-—知许解夏"><a href="#1、我们一定会相爱，像涟漪终会到达它的彼岸。-—知许解夏" class="headerlink" title="1、我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏"></a>1、我们一定会相爱，像涟漪终会到达它的彼岸。 —知许解夏</h2>    <div id="aplayer-GXJoJQUa" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1994245087" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。-这题超纲了"><a href="#2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。-这题超纲了" class="headerlink" title="2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了"></a>2、夏天，燥热的风被铁窗隔离在外，炽热的烈阳却已然穿过层层障碍，蝉鸣声渐远，午后干净的青草气息，像是少年刚晾干后的校服味道。 -这题超纲了</h2>    <div id="aplayer-bivJZBTP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1473228889" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。-—《某某》by木苏里-我永远的白月光"><a href="#3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。-—《某某》by木苏里-我永远的白月光" class="headerlink" title="3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光"></a>3、那一年，他喜欢的那个人在台上弹完一首歌，转身下台的时候，背上印着他的名字。台下的掌声热烈而经久，就像一场盛大的祝福。无人知晓他们在一起，但人人都曾见过他们在一起的样子。  —《某某》by木苏里  我永远的白月光</h2><h2 id="SouthAki"><a href="#SouthAki" class="headerlink" title="SouthAki"></a>SouthAki</h2>]]></content>
       
     </entry>
     
