@@ -4,7 +4,7 @@ dd = d.getDate();
 y = d.getFullYear();
 
 //网站建站日
-if (m == 7 && dd == 22) {//国庆节
+if (m == 7 && dd == 22) {//建站日
     if (sessionStorage.getItem("isPopupWindow") != "1") {
         Swal.fire("今天是本站建站日" + (y - 2023).toString() + "周年纪念日\n希望走过的路繁花盛开，人声鼎沸");
         sessionStorage.setItem("isPopupWindow", "1");
@@ -46,6 +46,12 @@ if (m == 8 && dd == 14) {
 if (m == 10 && dd <= 3) {//国庆节
     if (sessionStorage.getItem("isPopupWindow") != "1") {
         Swal.fire("祝祖国" + (y - 1949).toString() + "岁生日快乐！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
+if (m == 10 && dd == 10) {//民国国庆
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("祝我中华民国🇹🇼历经" + (y - 1912).toString() + "年仍屹立世界的东方。");
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
